@@ -8,8 +8,8 @@
 .DS_STORE
 node_modules
 *~
+# static
 *.pyc
-static
 .grunt
 _SpecRunner.html
 __benchmarks__
