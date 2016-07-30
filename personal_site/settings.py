@@ -25,7 +25,8 @@ SECRET_KEY = '(iha!&)(44ilvd3-levreipg2ck_geu4t-5$0t2)q*pyg6a&#r'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-	'localhost'
+	'localhost',
+	'.herokuapp.com'
 ]
 
 # Application definition
