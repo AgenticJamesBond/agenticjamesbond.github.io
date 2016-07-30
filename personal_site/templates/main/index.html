@@ -1,0 +1,38 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaime Orellana's Site</title>
+    <meta name="description"
+          content="Jaime Orellana's Personal Website">
+    <meta name="keywords"
+          content="bootstrap theme">
+    <meta name="author" content="jaimeorellana.com">
+
+    {% include 'main/stylesheets.html' %}
+</head>
+
+<body>
+
+{% include "basics/navbar.html" %}
+
+{% include "main/header.html" %}
+
+{% include "main/about.html" %}
+
+{% include "main/teampage.html" %}
+
+{% include "main/portfolio.html" %}
+
+{% include "main/testimonials.html" %}
+
+{% include "basics/footer.html" %}
+
+{% include 'main/scripts.html' %}
+
+</body>
+</html>

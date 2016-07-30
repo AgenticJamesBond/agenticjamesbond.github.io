@@ -1,0 +1,68 @@
+{% load staticfiles %}
+
+<div id="lightbox" class="row about-text">
+
+    {# TODO: Add Padding #}
+    <div class="section-title text-left left">
+        <h2>
+            Kindrone: 3rd Place
+        </h2>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="col-sm-6 branding">
+            <div class="portfolio-item">
+                <div class="hover-bg">
+
+                    <a href="http://devpost.com/software/kindrone">
+                        <div class="hover-text">
+                            <h4>Kindrone Project Details</h4>
+                            <small>Hosted by DevPost</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="
+                        {% static 'img/kindrone.png' %}"
+                             class="img-responsive"
+                             style="width:100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 branding">
+            <div class="portfolio-item">
+                <p class="intro">
+
+                <ul class="about-list">
+                    <li>
+                        <span class="fa fa-dot-circle-o"></span>
+                        <strong>
+                            DragonHacks @ Drexel University | 3rd Place
+                        </strong>
+                    </li>
+
+                    <li>
+                        <span class="fa fa-dot-circle-o"></span>
+                        <strong>About</strong>
+                        :
+                        We developed a program that used the Kinect sensors to
+                        communicate with an AR.Drone, allowing it to control
+                        the drone via the use of hand gestures.
+                    </li>
+
+                    <li>
+                        <span class="fa fa-dot-circle-o"></span>
+                        <strong>Tools</strong>
+                        :
+                        <em>
+                            KinectSDK, AR.DroneSDK, C#, VisualBasic
+                        </em>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
