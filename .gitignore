@@ -5,12 +5,13 @@
 
 # React .gitignore files
 
+
 .DS_STORE
 node_modules
 *~
 # static
 *.pyc
-.grunt
+.grunt1!
 _SpecRunner.html
 __benchmarks__
 build/
