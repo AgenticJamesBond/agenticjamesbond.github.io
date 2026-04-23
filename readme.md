@@ -1,10 +1,16 @@
-Just somethings I wrote in my mind.
+Personal website and blog for `www.jaimeo.me`.
 
-requirements:
-- Single loading page with a brief bio
-- Include links to LinkedIn and GitHub, DevPost, Blog Medium
-- SIMPLE.
+Current structure:
+- homepage at `/`
+- blog at `/blog/`
+- GitHub Pages deployment through GitHub Actions
 
-nonfunctional
-- dont lag gh pages
-- ssl enabled
+Local development:
+1. Install Bundler and the Gemfile dependencies.
+2. Run `bundle exec jekyll serve`.
+3. Open `http://127.0.0.1:4000`.
+
+Notes:
+- `CNAME` preserves the custom domain.
+- Posts live in `_posts/`.
+- The blog now lives inside this repo instead of as a separate site.

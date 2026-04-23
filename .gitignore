@@ -108,6 +108,10 @@ GitHub.sublime-settings
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
+.bundle/
+.jekyll-cache/
+.sass-cache/
+_site/
 
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml

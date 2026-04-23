@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="shortcut icon" href="{{ '/static/img/favicon.ico' | relative_url }}">
+    <link href="{{ '/static/css/bootstrap.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/static/css/site.css' | relative_url }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/static/fontawesome/css/all.min.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="header-inner">
+          <a class="site-mark" href="{{ '/' | relative_url }}">James</a>
+          <nav class="site-nav" aria-label="Primary">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/blog/' | relative_url }}">Blog</a>
+            <a href="{{ '/static/docs/OrellanaJaimeResume.pdf' | relative_url }}">Resume</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="site-main">
+        <div class="content-frame">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <p>Hosted on GitHub Pages. Blog and homepage now share one repo.</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+title: James
+description: Personal website and writing from James.
+url: "https://www.jaimeo.me"
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
