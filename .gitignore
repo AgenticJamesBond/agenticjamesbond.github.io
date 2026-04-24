@@ -109,6 +109,7 @@ GitHub.sublime-settings
 .idea/gradle.xml
 .idea/libraries
 .bundle/
+Gemfile.lock
 .jekyll-cache/
 .sass-cache/
 _site/
